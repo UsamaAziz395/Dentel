@@ -1,7 +1,7 @@
 import React from 'react'
 import HealthCaredata from '../../data/HealthCaredata'
-import { FaArrowRightLong } from "react-icons/fa6"
 import { Link } from 'react-router-dom'
+import { FaArrowRightLong } from "react-icons/fa6";
   import { FaArrowCircleRight } from "react-icons/fa";
   import { FaArrowCircleLeft } from "react-icons/fa";
 

@@ -1,9 +1,7 @@
 import React from 'react'
 import Reviewdata from '../../data/Reviewdata'
-import { FaArrowRightLong } from "react-icons/fa6"
-import { Link } from 'react-router-dom'
-  import { FaArrowCircleRight } from "react-icons/fa";
-  import { FaArrowCircleLeft } from "react-icons/fa";
+  import { FaArrowCircleRight,FaArrowCircleLeft } from "react-icons/fa";
+ 
 
 
 // Swiper

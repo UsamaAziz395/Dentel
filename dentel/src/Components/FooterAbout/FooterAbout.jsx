@@ -2,9 +2,10 @@
 import React from 'react'
 import logo from '../../assets/images/main/logo.png'
 import { Link } from 'react-router-dom'
-import { FaInstagram, FaFacebook } from 'react-icons/fa'
-import { FaLinkedin } from 'react-icons/fa6'
-import { FaBehance } from 'react-icons/fa'
+import { FaInstagram, FaFacebook,FaLinkedin,FaBehance } from 'react-icons/fa'
+
+
+<FaLinkedin />
 
 function FooterAbout() {
   return (
