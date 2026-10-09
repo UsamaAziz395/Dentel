@@ -1,6 +1,6 @@
 
 import React from "react";
-import leftimage from '../assets/images/leftimage.png'
+import leftimage from '../assets/images/main/leftimage.png'
 
 function ContactUs() {
   const handleSubmit = (e) => {

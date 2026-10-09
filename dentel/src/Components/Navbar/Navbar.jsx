@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/images/main/logo.png';
 import { Link } from 'react-router-dom';
 import Appointment from '../Appointment/Appointment';
 import { FaBars, FaTimes } from 'react-icons/fa';

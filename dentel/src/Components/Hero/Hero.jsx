@@ -1,7 +1,7 @@
 import React from "react";
 import Appointment from "../Appointment/Appointment";
 import { Link } from "react-router-dom";
-import leftimage from "../../assets/images/leftimage.png";
+import leftimage from "../../assets/images/main/leftimage.png";
 
 function Hero() {
   return (
