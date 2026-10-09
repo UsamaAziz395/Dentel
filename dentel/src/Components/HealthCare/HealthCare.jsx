@@ -38,18 +38,18 @@ function HealthCare() {
       </div>
 
 
-      {/* ================= CAROUSEL ================= */}
+      {/*  CAROUSEL */}
 
       <div className='max-w-[1000px] mx-auto py-8 px-4'>
 
         <Swiper
 
-          /* ================= MODULES ================= */
+          /* MODULES */
 
           modules={[Navigation, Pagination, Autoplay]}
 
 
-          /* ================= ARROWS ================= */
+          /*  ARROW*/
 
           navigation={{
             nextEl: '.health-next',
@@ -57,7 +57,7 @@ function HealthCare() {
           }}
 
 
-          /* ================= PAGINATION ================= */
+          /* PAGINATION  */
 
           pagination={{
             el: '.health-pagination',
@@ -65,25 +65,25 @@ function HealthCare() {
 
             // Normal dot
             bulletClass:
-              'swiper-pagination-bullet !w-2.5 !h-2.5 bg-gray-200 opacity-100 rounded-full cursor-pointer transition-all duration-300',
+              'swiper-pagination-bullet w-2.5 h-2.5 bg-gray-200 opacity-100 rounded-full cursor-pointer transition-all duration-300',
 
             // Active dot
             bulletActiveClass:
-              'swiper-pagination-bullet-active !bg-amber-400 !opacity-100 !scale-125',
+              'swiper-pagination-bullet-active bg-amber-400 opacity-100 scale-125',
           }}
 
 
-          /* ================= CARD GAP ================= */
+          /*  CARD GAP */
 
           spaceBetween={30}
 
 
-          /* ================= ANIMATION ================= */
+          /* ANIMATION  */
 
           speed={800}
 
 
-          /* ================= AUTO PLAY ================= */
+          /* AUTO PLAY  */
 
           autoplay={{
             delay: 3000,
@@ -91,7 +91,7 @@ function HealthCare() {
           }}
 
 
-          /* ================= RESPONSIVE ================= */
+          /* RESPONSIVE  */
 
           breakpoints={{
 
