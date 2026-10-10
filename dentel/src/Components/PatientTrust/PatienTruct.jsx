@@ -69,11 +69,11 @@ function WhyChoose() {
 
 <div className='relative min-h-[280px] md:min-h-[320px] flex items-center justify-center'>
           
-          <div className="relative w-full h-[350px] sm:h-[420px] md:h-[400px] bg-[#202020] border-l-[6px] border-amber-400 rounded-bl-[80%]  overflow-hidden">
+          <div className="relative w-[90%] h-full  md:h-[380px] bg-[#202020] border-l-[3px] border-amber-400 rounded-bl-[80%]   overflow-hidden">
            <img
   src={Whitening}
   alt=""
-  className='w-[100%] h-[105%] object-contain object-bottom'
+  className='w-full h-full object-contain object-bottom'
 />
           </div>
 
