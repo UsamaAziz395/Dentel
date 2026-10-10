@@ -69,7 +69,7 @@ function WhyChoose() {
 
 <div className='relative min-h-[280px] md:min-h-[320px] flex items-center justify-center'>
           
-          <div className="relative w-full h-[350px] sm:h-[420px] md:h-[400px] bg-[#202020] border-l-[6px] border-amber-400 rounded-l-[45%] overflow-hidden">
+          <div className="relative w-full h-[350px] sm:h-[420px] md:h-[400px] bg-[#202020] border-l-[6px] border-amber-400 rounded-bl-[80%]  overflow-hidden">
            <img
   src={Whitening}
   alt=""
@@ -78,7 +78,7 @@ function WhyChoose() {
           </div>
 
           {/* Experience Badge */}
-          <div className='absolute bottom-10 left-10 md:-translate-x-1/2 w-32 h-32 rounded-full border-2 border-amber-400 backdrop-blur-md bg-gray-800 flex flex-col items-center justify-center text-center shadow-[0_0_8px_rgba(251,191,36,0.25)]'>
+          <div className='absolute bottom-10 left-5 md:left-30 md:-translate-x-1/2 w-32 h-32  rounded-full border-2 border-amber-400 backdrop-blur-md opacity-80  flex flex-col items-center justify-center text-center shadow-[0_0_8px_rgba(251,191,36,0.25)]'>
 
             <span className='text-amber-400 text-3xl mb-1'>🏆</span>
 

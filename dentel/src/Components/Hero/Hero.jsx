@@ -50,7 +50,7 @@ function Hero() {
           <img
             src={leftimage}
             alt="Dental care"
-            className="w-full max-w-[280px] sm:max-w-sm md:max-w-md lg:max-w-lg h-auto object-contain"
+            className="w-full max-w-[280px] sm:max-w-sm md:max-w-md lg:max-w-lg h-auto object-contain rounded-2xl  shadow-amber-400 shadow-2xl"
           />
         </div>
 

@@ -13,8 +13,8 @@ function ContactUs() {
       <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 items-center">
 
         {/* Left Image */}
-        <div className="relative h-[320px] sm:h-[400px] md:h-[480px]">
-          <div className="absolute inset-0 overflow-hidden rounded-r-[45%] border-r-[6px] border-b-[6px] border-amber-400">
+        <div className="relative h-[320px] sm:h-[400px] md:h-[440px]">
+          <div className="absolute inset-0 overflow-hidden rounded-br-[80%]  border-r-[5px] border-b-[6px] border-amber-400">
             <img
               src={leftimage}
               alt="Dental treatment"

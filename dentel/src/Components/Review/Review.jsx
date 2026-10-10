@@ -111,42 +111,51 @@ function HealthCare() {
 
           {/* ================= CARDS ================= */}
 
-          {Reviewdata.map((data) => (
+     
+{/* Review Cards */}
+{Reviewdata.map((data, index) => (
+  <SwiperSlide key={data.id ?? index}>
+    <div className="w-full h-[250px] bg-gray-900 rounded-2xl border border-amber-400 p-4 flex flex-col">
 
-            <SwiperSlide key={data.id}>
+      {/* Top Row */}
+      <div className="flex items-center justify-between gap-3">
 
-              {/* Card */}
+        {/* Logo + Name + Title */}
+        <div className="flex items-center gap-3 min-w-0">
 
-              <div
-                className=' w-full h-[250px] bg-gray-900   rounded-2xl border border-amber-400 p-4 flex flex-col ' >
+          {/* Logo */}
+          <div className="flex-shrink-0 rounded-full h-10 w-10 text-black font-bold bg-white flex items-center justify-center">
+            {data.logo}
+          </div>
 
-                         {/* logo */}
-            <h1 className='rounded-full h-10 w-10 text-black font-bold bg-white text-center pt-1.5'>{data.logo}</h1>
+          {/* Name and Title */}
+          <div className="min-w-0 flex flex-col justify-center">
+            <h2 className="text-base font-bold text-amber-300 truncate leading-tight">
+              {data.name}
+            </h2>
 
-                     
+            <h3 className="text-sm text-gray-300 truncate leading-tight mt-0.5">
+              {data.title}
+            </h3>
+          </div>
 
-                {/* Title */}
-  
-                       <div className='flex justify-between' >
-                <h2 className=' text-lg font-bold text-amber-300'>
-                  {data.name}</h2>
-                  <span className='text-amber-400'>{data.rating}  </span>
-                </div>
-                <h3 className='text-sm'>
-                 {data.title}
-                   </h3>
+        </div>
 
-                   <p className='text-gray-400 pt-3 leading-tight'>{data.messege}</p>
+        {/* Rating Right Side */}
+        <span className="text-amber-400 font-semibold whitespace-nowrap text-sm">
+         {data.rating}
+        </span>
 
-              
+      </div>
 
-               
+      {/* Review Message */}
+      <p className="text-gray-400 text-sm pt-4 leading-relaxed">
+        {data.messege}
+      </p>
 
-              </div>
-
-            </SwiperSlide>
-
-          ))}
+    </div>
+  </SwiperSlide>
+))}
 
         </Swiper>
 
@@ -189,3 +198,4 @@ function HealthCare() {
 }
 
 export default HealthCare
+
